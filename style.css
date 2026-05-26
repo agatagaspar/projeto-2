@@ -20,3 +20,24 @@ a{
     text-decoration: none; 
     font-size: 20px; 
 }
+
+section{
+    flex-direction: column;
+}
+.cartão{
+    width: 260px;
+    height: 200px;
+}
+.cartão-frente{
+background-color: blueviolet;
+position: absolute;
+border-radius: 12px;
+border: solid 5px blue;
+}
+.cartão-verso{
+background-color: hotpink;
+position: absolute;
+border-radius: 12px;
+border: solid 5px black ;
+
+}
